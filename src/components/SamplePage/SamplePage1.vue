@@ -64,8 +64,15 @@
       turkey jerky ham hock chuck corned beef. Capicola chuck beef beef ribs.
     </p>
     <p>
+<<<<<<< HEAD
+      <span style="color:#4B00EA;cursor: pointer" @click="fourPage"
+        ><strong>Meatball bacon hamburger </strong></span
+      >
+      ball tip, leberkas cupim landjaeger pork chop porchetta.
+=======
       Meatball bacon hamburger ball tip, leberkas cupim landjaeger pork chop
       porchetta.
+>>>>>>> 9f6f41a0b273e164bb8757c69220c3c0817d1234
     </p>
     <p>
       Bacon cow alcatra rump, tenderloin biltong jerky shoulder kielbasa swine
@@ -125,7 +132,17 @@
   </div>
 </template>
 <script>
+<<<<<<< HEAD
+export default {
+  methods: {
+    fourPage() {
+      this.$router.push("/four");
+    }
+  }
+};
+=======
 export default {};
+>>>>>>> 9f6f41a0b273e164bb8757c69220c3c0817d1234
 </script>
 <style scoped>
 .sample1 {

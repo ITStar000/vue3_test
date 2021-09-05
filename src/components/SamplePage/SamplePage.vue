@@ -9,8 +9,17 @@
       </strong>
     </h2>
     <p>
+<<<<<<< HEAD
+      Chislic filet mignon bresaola doner meatball.<span
+        style="color:#4B00EA;cursor: pointer"
+        @click="threePage"
+        ><strong>Other Document</strong>
+      </span>
+      rump pork jerky prosciutto flank pancetta chislic turkey chuck.
+=======
       Chislic filet mignon bresaola doner meatball. Other document rump pork
       jerky prosciutto flank pancetta chislic turkey chuck.
+>>>>>>> 9f6f41a0b273e164bb8757c69220c3c0817d1234
     </p>
     <p>
       Tail tongue t-bone bresaola filet mignon ribeye meatball flank bacon
@@ -55,7 +64,16 @@
 import { Edit } from "@element-plus/icons";
 
 export default {
+<<<<<<< HEAD
+  components: { Edit },
+  methods: {
+    threePage() {
+      this.$router.push("/three");
+    }
+  }
+=======
   components: { Edit }
+>>>>>>> 9f6f41a0b273e164bb8757c69220c3c0817d1234
 };
 </script>
 <style scoped>
